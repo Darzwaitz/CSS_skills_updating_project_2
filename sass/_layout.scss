@@ -25,11 +25,17 @@
     background-color: var(--color-grey-dark-1);
     //flex: grow | shrink | basis(width of element)
     flex: 0 0 18%;
+
+    //sidenav footer 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: #fff;
     background-color: lawngreen;
+    height: 80rem;
     //grow all available space
     flex: 1;
 }
